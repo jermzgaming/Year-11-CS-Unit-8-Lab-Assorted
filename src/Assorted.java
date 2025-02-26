@@ -15,6 +15,7 @@ public class Assorted {
      */
     public static int findSum(List<?> list) {
         int sum = 0;
+        int one = 1;
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) instanceof String) {
